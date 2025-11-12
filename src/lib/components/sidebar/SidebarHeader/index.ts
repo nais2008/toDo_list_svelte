@@ -1,1 +1,1 @@
-export { default } from './SidebarHeader.svelte'
+export { default } from "./SidebarHeader.svelte"

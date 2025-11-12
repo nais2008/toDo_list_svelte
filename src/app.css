@@ -111,11 +111,24 @@
   --color-sidebar-ring: var(--sidebar-ring);
 }
 
+@theme {
+  --spacing-layout: 1rem;
+}
+
+html {
+  font-size: 18px;
+}
+
 @layer base {
-  * {
-    @apply border-border outline-ring/50;
-  }
   body {
     @apply bg-[#080808] text-white;
   }
+}
+
+button {
+  @apply cursor-pointer;
+}
+
+input {
+  @apply font-light;
 }

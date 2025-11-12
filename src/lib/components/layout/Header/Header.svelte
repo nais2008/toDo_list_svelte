@@ -1,6 +1,5 @@
 <script lang="ts">
   import type { Component } from "svelte"
-  import classNames from 'classnames'
 
   interface Props {
     children: Component
@@ -14,9 +13,9 @@
 </script>
 
 <header
-  class={classNames(className, "p-4")}
+  class={className}
   class:border-b={withBorderBottom}
-  class:border-b-neutral-400={withBorderBottom}
+  class:border-b-neutral-800={withBorderBottom}
 >
   <ChildComponent />
 </header>
