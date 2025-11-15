@@ -4,7 +4,7 @@
 </script>
 
 <main class="flex h-screen">
-  <div class="m-auto w-8/12 grid grid-cols-[.9fr_2fr] bg-[#181818] shadow rounded-2xl overflow-hidden">
+  <div class="h-[900px] m-auto w-9/12 grid grid-cols-[.6fr_2fr] bg-[#181818] shadow rounded-2xl overflow-hidden">
     <Sidebar />
     <MainPage />
   </div>

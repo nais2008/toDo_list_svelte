@@ -1,11 +1,11 @@
 <script lang="ts">
   import MainHeader from "./MainHeader"
-  import SingleGoals from "./SingleGoals"
+  import SingleGoal from "./SingleGoal"
 
 
 </script>
 
-<div>
+<div class="overflow-x-auto">
   <MainHeader />
-  <SingleGoals />
+  <SingleGoal />
 </div>
